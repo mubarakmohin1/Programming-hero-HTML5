@@ -75,7 +75,8 @@ margin-left: 10px;
 .footer-container{
     margin: 20px 10px;
     display: grid;
-   
+    background-color:rgb(47, 47, 164);
+   color: white;
     grid-template-columns: 2fr 1fr 2fr;
 }
 .footer-first-grid{
@@ -87,4 +88,14 @@ margin-left: 10px;
     width: 50%;
   
     
+}
+.footer-last-grid{
+    display: flex;
+}
+.footer-last-grid img{
+    margin: 10px 20px;
+    width: 75%;
+    
+    align-items: center;
+    justify-content: center;
 }
