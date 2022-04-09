@@ -1,0 +1,90 @@
+.first-section{
+margin: 20px 10px;
+background-color: rgb(241, 234, 234);
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+grid-gap: 5px;
+
+
+}
+.name-span{
+    color: orange;
+}
+.first-section h1,p,a{
+    margin-left: 10%;
+}
+
+.first-section a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.first-section img{
+    width: 50%;
+    height: 100%;
+    padding-left: 10%;
+     
+    
+}
+.text-container{
+    align-items: center;
+}
+.display-title{
+    display: flex;
+    justify-content: center;
+}
+.title:hover{
+    color: orangered;
+    cursor: pointer;
+}
+ 
+.second-section{
+    margin: 20px 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
+.display-container img{
+    width: 100%;
+}
+.display-img{
+    margin: 5px 10px;
+    box-shadow: 10px 10px 8px gray;
+}
+.display-text{
+    padding-bottom: 0;
+}
+.display-container{
+    background-color: rgb(231, 246, 246);
+    position: relative;
+}
+.display-container h3,h4{
+margin-left: 10px;
+
+}
+.display-container:hover{
+    background-color: rgb(189, 212, 212);
+    cursor: pointer;
+
+
+}
+.footer-container{
+    margin: 20px 10px;
+    display: grid;
+   
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.footer-first-grid{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container img{
+    width: 50%;
+  
+    
+}
